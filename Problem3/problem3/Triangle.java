@@ -32,7 +32,7 @@ public class Triangle extends Shape {
         } else {
             System.out.println("Error: The sides (" + side1 + ", " + side2 + ", " + side3 + ") do not form a valid triangle.");
             System.out.println(" Terminating program due to invalid triangle.");
-            System.exit(1);  //Terminates the program
+            System.exit(1);  
         }
     }
 
