@@ -2,8 +2,8 @@ package problem1;
 public class Teacher extends Person {
 
     //attributes
-    protected String mySubject; // Example: "Computer Science", "Chemistry"
-    protected double mySalary; // annual salary
+    private String mySubject; // Example: "Computer Science", "Chemistry"
+    private double mySalary; // annual salary
 
     public Teacher(String name, int age, String gender, String subject, double salary){
 
